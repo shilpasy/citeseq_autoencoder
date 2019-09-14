@@ -9,7 +9,7 @@ To run the clustering notebook, you will need to have R and the Seurat package i
 `install.packages('Seurat')`  
 `library(Seurat)`
 
-To run the autoencoder notebook, you will need to have Python 3.6 or later and install Pytorch v1 and the fastai library by typing:  
+To run the autoencoder notebooks, you will need to have Python 3.6 or later and install Pytorch v1 and the fastai library by typing:  
 `conda install -c pytorch -c fastai fastai`
 
 To use Pip install, please first install Pytorch following the instructions on:
