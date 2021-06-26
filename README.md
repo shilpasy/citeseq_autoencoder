@@ -7,15 +7,9 @@ The accompanying notebooks for my blog post "Integrative analysis of single-cell
 The data can be downloaded at:  
 https://www.dropbox.com/sh/sm8vqmmv1d6cmst/AAC6aQoPtlReMSKmITnkxNiQa?dl=0
 
-To run the clustering notebook, you will need to have R and the Seurat package installed by typing:  
+To run the preprocessing script, you will need to have R and the Seurat package installed by typing:  
 `install.packages('Seurat')`  
 `library(Seurat)`
 
-To run the autoencoder notebooks, you will need to have Python 3.6 or later and install Pytorch v1 and the fastai library by typing:  
-`conda install -c pytorch -c fastai fastai`
-
-To use Pip install, please first install Pytorch following the instructions on:
+To run the autoencoder notebooks, please install Pytorch following the instructions on:
 https://pytorch.org/
-
-and then install fastai by typing:  
-`pip install fastai`
