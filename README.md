@@ -1,4 +1,4 @@
-# Updated for the DECODE LIFE WORKSHOP deep learning lecture on June 30, 2021.
+# Updated for the [DECODE LIFE WORKSHOP deep learning lecture](https://decodelife.org/recent-workshop/) on June 30, 2021.
 
 ## Integrative analysis of single-cell multi-omics data using deep learning
 
