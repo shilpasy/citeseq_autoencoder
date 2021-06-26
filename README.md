@@ -1,6 +1,8 @@
-# Integrative analysis of single-cell multi-omics data using deep learning
+# Updated for the DECODE LIFE WORKSHOP deep learning lecture on June 30, 2021.
 
-The accompanying notebooks for my blog post "Integrative analysis of single-cell multi-omics data using deep learning": https://medium.com/@yuan_tian/integrative-analysis-of-single-cell-multi-omics-data-using-deep-learning-66a61a3448c5 
+## Integrative analysis of single-cell multi-omics data using deep learning
+
+The accompanying notebooks for my blog post "Integrative analysis of single-cell multi-omics data using deep learning: https://medium.com/@yuan_tian/integrative-analysis-of-single-cell-multi-omics-data-using-deep-learning-66a61a3448c5 
 
 The data can be downloaded at:  
 https://www.dropbox.com/sh/sm8vqmmv1d6cmst/AAC6aQoPtlReMSKmITnkxNiQa?dl=0
