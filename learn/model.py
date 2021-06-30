@@ -38,17 +38,15 @@ class Encoder(nn.Module):
         if self.nfeatures_rna > 0 and self.nfeatures_pro > 0:
             x_rna = self.encoder_rna(x[:, :self.nfeatures_rna])
             x_pro = self.encoder_protein(x[:, self.nfeatures_rna:])
-            x = self.encoder(torch.cat([x_rna, x_pro], 1))
+            x = torch.cat([x_rna, x_pro], 1)
 
         elif self.nfeatures_rna > 0 and self.nfeatures_pro == 0:
             x = self.encoder_rna(x)
-            x = self.encoder(x)
 
         elif self.nfeatures_rna == 0 and self.nfeatures_pro > 0:
             x = self.encoder_protein(x)
-            x = self.encoder(x)
-        
-        return x
+            
+        return self.encoder(x)
 
 
 class Decoder(nn.Module):
@@ -75,7 +73,7 @@ class Decoder(nn.Module):
 
 class CiteAutoencoder(nn.Module):
     def __init__(self, nfeatures_rna=0, nfeatures_pro=0, hidden_rna=120, hidden_pro=8, z_dim=20):
-        ### Autoencoder for citeseq data """
+        """ Autoencoder for citeseq data """
         super().__init__()
  
         self.encoder = Encoder(nfeatures_rna, nfeatures_pro, hidden_rna, hidden_pro, z_dim)
