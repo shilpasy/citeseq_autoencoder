@@ -1,6 +1,8 @@
-# Updated for the [DECODE LIFE WORKSHOP deep learning lecture (video)](https://www.youtube.com/watch?v=sRpj9MhNjS8) on June 30, 2021.
+# Integrative analysis of single-cell multi-omics data using deep learning
 
-## Integrative analysis of single-cell multi-omics data using deep learning
+## Updates:
+1. 8/4/2022: [Tutorial on Saturn Cloud (video)](https://youtu.be/tad9TPCMWbU)
+2. 6/302021: [Decode Life Workshop deep learning lecture (video)](https://www.youtube.com/watch?v=sRpj9MhNjS8)
 
 The accompanying notebooks for my blog post "Integrative analysis of single-cell multi-omics data using deep learning: https://medium.com/@yuan_tian/integrative-analysis-of-single-cell-multi-omics-data-using-deep-learning-66a61a3448c5 
 
